@@ -47,19 +47,29 @@ def main():
     #choose a word
     if category == '1':
         print(random.choice(movies_list))
+        play_again = input('Tu l\'as vu? (y/n) ')
     elif category == '2':
         print(random.choice(books_list))
+        play_again = input('Tu l\'as lu? (y/n) ')
     elif category == '3':
         print(random.choice(tv_list))
+        play_again = input('Tu l\'as vu? (y/n) ')
     elif category == '4':
         print(random.choice(vg_list))
+        play_again = input('Tu l\'as joué? (y/n) ')
     elif category == '5':
         print(random.choice(music_list))
+        play_again = input('Tu l\'as écouté? (y/n) ')
     elif category == '6':
         print(random.choice(food_list))
+        play_again = input('Tu l\'as mangé? (y/n) ')
     elif category == '7':
         print(random.choice(animals_list))
+        play_again = input('Tu l\'as vu? (y/n) ')
     else:
         print('Choisit une catégorie valide')
+        main()
+    #play again
+    if play_again == 'y':
         main()
 main()
