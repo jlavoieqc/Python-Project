@@ -38,13 +38,14 @@ def main():
         print('')
         print('Letters guessed:', letters_guessed)
 
+        #get the player's guess
+        guess = input('Guess a letter: ')
+
         #blocking maj or 2 letters
         if guess in blocked_letters:
             print('Cannot use this letter')
             continue
 
-        #get the player's guess
-        guess = input('Guess a letter: ')
 
         #if the player has already guessed that letter, tell them and don't do anything else
         if guess in letters_guessed:
