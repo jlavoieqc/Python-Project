@@ -28,7 +28,7 @@ def main():
     print('The goal is to guess the word within 6 tries.')
 
     #blocking maj or 2 letters
-    blocked_letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+    blocked_letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','AA','BB','CC','DD','EE','FF','GG','HH','II','JJ','KK','LL','MM','NN','OO','PP','QQ','RR','SS','TT','UU','VV','WW','XX','YY','ZZ','AAA','BBB','CCC','DDD','EEE','FFF','GGG','HHH','III','JJJ',"1","2","3","4","5","6","7","8","9","0",'!','@','#','$','%','^','&','*','(',')','_','+','=','{','}','[',']','|',';',':','"',"'",'<','>','?','/',',','.','~','`','\\',' ','']
 
     #while the game is not over, keep playing
     while not game_over:
