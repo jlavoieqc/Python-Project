@@ -3,13 +3,13 @@ import urllib.request
 
 #here is the list of books that will be generated
 #url
-movies_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
-books_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
-tv_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
-vg_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
-music_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
-food_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
-animals_url = "https://docs.google.com/spreadsheets/d/1ngGmD0b2aUbYcUneCrALhlkR8TtY6k2FGDQz0oSvEy4/edit?usp=sharing"
+movies_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/movies.txt"
+books_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/books.txt"
+tv_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/tv.txt"
+vg_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/vg.txt"
+music_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/music.txt"
+food_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/food.txt"
+animals_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Topic%20Generator/animals.txt"
 
 def main():
     #movies
