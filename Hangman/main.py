@@ -3,8 +3,10 @@ import requests
 
 def main():
     #create a list of words
-    word_file = "Path_to_word_list"
-    word_list = open(word_file).read().splitlines()
+    word_url = "https://raw.githubusercontent.com/jlavoieqc/Python-Project/main/Hangman/word.txt"
+    response = urllib.request.urlopen(word_url)
+    long_txt = response.read().decode()
+    word_list = long_txt.splitlines()
 
     #randomly select a word from the list
     word = random.choice(word_list)
