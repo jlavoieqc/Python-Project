@@ -1,5 +1,6 @@
 import random
-import requests
+from urllib.request import urlopen
+import urllib.request
 
 def main():
     #create a list of words
